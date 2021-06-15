@@ -1,0 +1,244 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 9,
+        "name": "As a tester Engineer , i want to validate that a text is present insede the lsit",
+        "description": "",
+        "id": "i-can-find-a-city-insede-a-test;as-a-tester-engineer---i-want-to-validate-that-a-text-is-present-insede-the-lsit;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1057600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2067717400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the list page",
+            "match": {
+              "location": "ListSteps.navegateToList()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 905460200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search Washington in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Washington",
+                  "offset": 9
+                }
+              ],
+              "location": "ListSteps.searchTheList(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 415307700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I cand find Seattle, Washington in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Seattle, Washington",
+                  "offset": 12
+                }
+              ],
+              "location": "ListSteps.findTextInTheList(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Grid"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "As a tester Engineer , i want to validate that a text is present insede the lsit",
+        "description": "",
+        "id": "i-can-find-a-city-insede-a-test;as-a-tester-engineer---i-want-to-validate-that-a-text-is-present-insede-the-lsit;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 430200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 98447500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the list page",
+            "match": {
+              "location": "ListSteps.navegateToList()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 896557200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search Chicago in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chicago",
+                  "offset": 9
+                }
+              ],
+              "location": "ListSteps.searchTheList(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23949800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I cand find Chicago, Illinois in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chicago, Illinois",
+                  "offset": 12
+                }
+              ],
+              "location": "ListSteps.findTextInTheList(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Grid"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "As a tester Engineer , i want to validate that a text is present insede the lsit",
+        "description": "",
+        "id": "i-can-find-a-city-insede-a-test;as-a-tester-engineer---i-want-to-validate-that-a-text-is-present-insede-the-lsit;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 306800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 93536900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the list page",
+            "match": {
+              "location": "ListSteps.navegateToList()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1047799500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search California in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "California",
+                  "offset": 9
+                }
+              ],
+              "location": "ListSteps.searchTheList(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2697114200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I cand find Fresno, Californ in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fresno, Californ",
+                  "offset": 12
+                }
+              ],
+              "location": "ListSteps.findTextInTheList(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Grid"
+          }
+        ]
+      }
+    ],
+    "name": "I can find a city insede a test",
+    "description": "",
+    "id": "i-can-find-a-city-insede-a-test",
+    "keyword": "Feature",
+    "uri": "src/test/resource/features/ListPageTest.feature",
+    "tags": [
+      {
+        "name": "@Grid",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

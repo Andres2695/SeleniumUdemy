@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="I can find a city insede a test" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-15T00:25:44" hostname="LAPTOP-NLQRV5VN" time="8.319">
+  <properties/>
+  <testcase name="As a tester Engineer , i want to validate that a text is present insede the lsit" classname="I can find a city insede a test" time="3.455"/>
+  <testcase name="As a tester Engineer , i want to validate that a text is present insede the lsit" classname="I can find a city insede a test" time="1.021"/>
+  <testcase name="As a tester Engineer , i want to validate that a text is present insede the lsit" classname="I can find a city insede a test" time="3.84"/>
+  <system-out><![CDATA[The text is on the list : PASSED
+The text is on the list : PASSED
+The text is not on the list : FAILED
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 35019
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 14, 2021 7:25:45 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
